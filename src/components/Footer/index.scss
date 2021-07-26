@@ -1,0 +1,25 @@
+.footer {
+  background-color: #f1f1f1 !important;
+  height: 700px;
+  text-align: center;
+}
+.footer-links {
+  padding-top: 70px;
+  p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}
+.profile-links {
+  margin-bottom: 15px;
+  a {
+    color: black;
+    margin-right: 20px;
+    font-size: 23px;
+    text-decoration: none;
+    transition: 0.3s linear;
+  }
+}
+.profile-links a:hover {
+  color: #ddd8d8;
+}

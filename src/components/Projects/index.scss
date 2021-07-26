@@ -1,0 +1,75 @@
+.projects-section {
+  margin: 50px;
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    margin-bottom: 60px;
+  }
+}
+.project {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  img {
+    max-width: 100%;
+    height: auto;
+    image-resolution: from-image 300dpi;
+  }
+  .project-img {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .project-p {
+    margin: 20px;
+    width: 100%;
+    p {
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+    button {
+      margin-right: 20px;
+      width: 110px;
+      padding: 10px;
+      border-radius: 25px;
+      outline: none;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      letter-spacing: 1px;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .source-btn {
+      background: none;
+      color: black;
+      border: 1px solid black;
+      a {
+        color: black;
+      }
+    }
+  }
+}
+h3 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 13px;
+  margin: 70px auto;
+  border: 2px solid black;
+  width: 450px;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
