@@ -34,8 +34,6 @@ const Projects = () => {
             <h3>Weather App</h3>
             <div className='project'>
                  <div className='project-p'>
-                    <br/>
-                    <br/>
                     <p>The weather forecast app is written with ReactJS using React Hooks and the OpenWeather API. The application shows the current date, current weather and weather for the next 4 days. The city of Paris is set by default.</p>
                     <h4>REACT-REACT HOOKS-AXIOS-MOMENT JS</h4>
                     <button>
@@ -72,8 +70,6 @@ const Projects = () => {
             <h3>Todo App</h3>
             <div className='project'>
                  <div className='project-p'>
-                    <br/>
-                    <br/>
                     <p>To do list with ReactJS + React Hooks. The data is saved in db.jsonTo do list with ReactJS + React Hooks. The data is saved in db.json..</p>
                     <h4>REACT-REACT HOOKS-AXIOS-JSON-SERVER</h4>
                     <button>
@@ -95,8 +91,6 @@ const Projects = () => {
                     <img src={project5Img} alt='project-img'/>
                 </div>
                 <div className='project-p'>
-                    <br/>
-                    <br/>
                     <p>Website using the Bootstrap library with a registration and login form.</p>
                     <h4>BOOTSTRAP</h4>
                     <button>

@@ -1,6 +1,5 @@
 .projects-section {
   margin: 50px;
-
   h2 {
     text-align: center;
     font-size: 30px;
@@ -13,6 +12,8 @@
   display: flex;
   width: 80%;
   margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
   img {
     max-width: 100%;
     height: auto;
@@ -65,11 +66,47 @@ h3 {
   text-align: center;
   font-size: 23px;
   font-weight: 700;
-  letter-spacing: 13px;
+  letter-spacing: 10px;
   margin: 70px auto;
-  border: 2px solid black;
-  width: 450px;
-  padding: 20px;
+  padding-bottom: 10px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 15, 15);
+  /*  span {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 12px;
+      right: 16px;
+      top: 0;
+      width: 52px;
+      height: 3px;
+      background: #000;
+      display: block;
+    } 
+  }*/
+}
+@media (max-width: 1200px) {
+  .project {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 850px) {
+  .projects-section {
+    h3 {
+      font-size: 16px;
+      width: 300px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .projects-section {
+    h3 {
+      font-size: 14px;
+      width: 200px;
+    }
+  }
 }
