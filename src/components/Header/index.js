@@ -3,9 +3,9 @@ import './index.scss';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes, faLink, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faGithub, faTelegram, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faTelegram, faLinkedin, faTwitter, faHtml5, faCss3Alt, faJs, faReact, faSass, faBootstrap, faFigma} from '@fortawesome/free-brands-svg-icons';
 
-library.add(faBars, faTimes, faLink, faGithub, faEnvelope, faTelegram, faLinkedin, faTwitter)
+library.add(faBars, faTimes, faLink, faGithub, faEnvelope, faTelegram, faLinkedin, faTwitter, faHtml5, faCss3Alt, faJs, faReact, faSass, faBootstrap, faFigma)
 
 const Header = () => {
 

@@ -59,11 +59,11 @@ const Projects = () => {
                     <h4>REACT-REDUX-REDUX THUNK-SASS</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
-                        <a target='_blank' href='#'> VISIT</a>
+                        <a target='_blank' href='https://gazizaa.github.io/'> VISIT</a>
                     </button>
                     <button className='source-btn'>
                         <FontAwesomeIcon icon={['fab', 'github'] }/>
-                        <a target='_blank' href='#'> SOURCE</a>
+                        <a target='_blank' href='https://github.com/Gazizaa/gazizaa.github.io'> SOURCE</a>
                     </button>
                 </div>
             </div>

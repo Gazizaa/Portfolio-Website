@@ -1,57 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import emailjs from 'emailjs-com';
 import './index.scss';
 
 const Footer = () => {
 
-    function sendEmail(e) {
+    const [value, setValue] = useState('');
+    const handleSubmit = (e) => {
         e.preventDefault();
-    emailjs.sendForm('gmail','template_bz2oocp', e.target, 'user_2vyJrQxHH3VTXDUNUI3Ml')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();
-  };
+        console.log(value);
+        setValue('');
+    }
+
     return (
         <div className='footer'>
             <div className='footer-row'>                
-                <div className='footer-input'>
-                    <div>
-                        <p>Contact Me</p> 
-                        <h6>Lorem knknknk knkkkkkkkkkk <br/>knnnnnnnnnnnnnnnkn knknnnnnnn</h6> 
-                    </div>
-                     <form onSubmit={sendEmail}>
-                        <div>
-                            <input type='text' placeholder='Your Name' name='name' required='required' max='20' />
-                        </div>
-                        <div>
-                            <input type="email" placeholder='Your Email' name='email' required='required' max="30"/>
-                        </div>
-                        <br/>
-                        <br/>
-                        <div>
-                            <textarea name="message" placeholder='Your Message' required='required' />
-                        </div>
-                        <div className='footer-btn'>
-                            <button>Submit</button>
-                        </div>
-                     </form>
-                </div> 
                 <div className="footer-links">
-                    <div>
-                        <h2>Contact Information</h2>
-                    </div>
-                    <div className='email-div'>
-                        <p>Email:</p>
-                        <p>gazizaagatayeva@gmail.com</p>
-                    </div>
-                    <div className='phone-div'>
-                        <p>Phone:</p>
-                        <p>+7 708 753 72 17 </p>
-                    </div>
                     <div>
                         <a href="https://github.com/Gazizaa" target="_blank">
                             <FontAwesomeIcon icon={['fab', 'github'] }/>
@@ -69,9 +32,30 @@ const Footer = () => {
                             <FontAwesomeIcon icon={['fab', 'twitter'] }/>
                         </a>
                     </div>
+                    <div>
+                      <p className="footer-text">© 2021 Created by GAZIZA AGATAYEVA. All Rights Reserved.</p>   
+                    </div>
+                </div>
+                 <div className="footer-input">
+                     <div>
+                        <h4>Newsletter</h4>
+                     </div>
+                    <div className='footer-p'>
+                        <p>Enter your Email to get my news and updates</p>
+                    </div>
+                    <div>
+                        <form className="newsletter-form">
+                            <input type="email" 
+                            placeholder="Enter Your Email" 
+                            required='required' 
+                            value={value} 
+                            onChange={(e) => setValue(e.target.value)}/>
+                            <button type='submit' onClick={handleSubmit} >Submit</button>
+                        </form>
+                    </div>
+                   
                 </div>
             </div>  
-            <p className="footer-text">© 2021 Created by GAZIZA AGATAYEVA. All Rights Reserved.</p> 
         </div>
     )
 }
