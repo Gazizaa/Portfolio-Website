@@ -19,7 +19,7 @@ const Projects = () => {
                     <img src={project1Img} alt='project-img'/>
                 </div>
                 <div className='project-p'>
-                    <p>In the application, you can see additional information about the product by clicking on the image. Implemented adding a product to the basket, removing a product from the basket, adjusting the number of products, emptying the basket. Product data is saved in db.json.In the application, you can see additional information about the product by clicking on the image. Implemented adding a product to the basket, removing a product from the basket, adjusting the number of products, emptying the basket. Product data is saved in db.json.</p>
+                    <p>In the application, you can see additional information about the product by clicking on the image. Implemented adding a product to the basket, removing a product from the basket, adjusting the number of products, emptying the basket. Product data is saved in db.json.</p>
                     <h4>REACT-REACT HOOKS-REDUX-REDUX THUNK-SASS</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
@@ -55,8 +55,8 @@ const Projects = () => {
                     <img src={project3Img} alt='project-img'/>
                 </div>
                 <div className='project-p'>
-                    <p>In the application, you can see additional information about the product by clicking on the image. Implemented adding a product to the basket, removing a product from the basket, adjusting the number of products, emptying the basket. Product data is saved in db.json.In the application, you can see additional information about the product by clicking on the image. Implemented adding a product to the basket, removing a product from the basket, adjusting the number of products, emptying the basket. Product data is saved in db.json.</p>
-                    <h4>REACT-REDUX-REDUX THUNK-SASS</h4>
+                    <p>This is website you're now watching.The portfolio site is implemented using ReactJS and SASS. Links to all my projects are provided. You can also download my resume.</p>
+                    <h4>REACTJS-SASS</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
                         <a target='_blank' href='https://gazizaa.github.io/'> VISIT</a>
@@ -70,7 +70,7 @@ const Projects = () => {
             <h3>Todo App</h3>
             <div className='project'>
                  <div className='project-p'>
-                    <p>To do list with ReactJS + React Hooks. The data is saved in db.jsonTo do list with ReactJS + React Hooks. The data is saved in db.json..</p>
+                    <p>To do list with ReactJS + React Hooks. The application has the ability to add and remove tasks. The data is saved in db.json.</p>
                     <h4>REACT-REACT HOOKS-AXIOS-JSON-SERVER</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
