@@ -3,5 +3,6 @@
 
 Портфолио-сайт реализован с помощью ReactJS и SASS. Указаны ссылки на все мои проекты. Также можно скачать мое резюме.
 
-![project-3](https://user-images.githubusercontent.com/82547298/127576346-4e60b97b-05f0-4252-bb0b-aef9c0d16ae7.png)
+![1](https://user-images.githubusercontent.com/82547298/127973749-1b1a4cfa-8ef2-4119-bd7e-c8f698a5028b.png)
+
 
