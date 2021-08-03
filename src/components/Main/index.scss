@@ -8,13 +8,13 @@
   color: whitesmoke;
   h1 {
     padding-top: 330px;
-    padding-left: 190px;
+    padding-left: 170px;
     font-size: 80px;
     font-weight: 500;
     margin-bottom: 10px;
   }
   p {
-    padding: 10px 193px;
+    padding: 10px 173px;
     font-size: 23px;
     letter-spacing: 0.5rem;
     /* text-transform: uppercase; */
@@ -23,7 +23,6 @@
     margin-right: 20px;
     margin-top: 20px;
     background: none;
-    color: white;
     outline: none;
     width: 220px;
     height: 45px;
@@ -36,9 +35,13 @@
       border: 1px solid whitesmoke;
       transform: scale(1.1);
     }
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
   .github-btn {
-    margin-left: 190px;
+    margin-left: 170px;
   }
 }
 @media (max-width: 1100px) {
@@ -50,6 +53,12 @@
     padding-left: 50px;
     font-size: 25px;
   }
+  .github-btn {
+    margin-left: 50px !important;
+  }
+  h1 {
+    padding-top: 230px !important;
+  }
 }
 @media (max-width: 600px) {
   .main-section h1 {
@@ -58,5 +67,19 @@
   .main-section p {
     font-size: 20px;
     line-height: 23px;
+  }
+  .github-btn {
+    margin-right: 80px !important;
+  }
+  .main-section button {
+    margin-left: 50px !important;
+  }
+  h1 {
+    padding-top: 190px !important;
+  }
+}
+@media (max-width: 350px) {
+  .main-section button {
+    margin-right: 0px !important;
   }
 }

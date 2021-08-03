@@ -77,21 +77,6 @@ h3 {
   border-top-right-radius: 20px;
   text-decoration: underline;
   text-decoration-color: rgba(15, 15, 15);
-  /*  span {
-    position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 12px;
-      right: 16px;
-      top: 0;
-      width: 52px;
-      height: 3px;
-      background: #000;
-      display: block;
-    } 
-  }*/
 }
 @media (max-width: 1200px) {
   .project {
@@ -99,11 +84,20 @@ h3 {
   }
 }
 @media (max-width: 850px) {
+  .project {
+    padding: 10px;
+  }
   .projects-section {
     h3 {
-      font-size: 16px;
+      font-size: 20px;
       width: 300px;
+      margin-bottom: 30px;
     }
+  }
+}
+@media (max-width: 475px) {
+  .source-btn {
+    margin-top: 20px;
   }
 }
 @media (max-width: 400px) {
