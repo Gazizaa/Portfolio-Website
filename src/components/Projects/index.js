@@ -23,11 +23,11 @@ const Projects = () => {
                     <h4>REACT-REACT HOOKS-REDUX-REDUX THUNK-SASS</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
-                        <a target='_blank' href='https://react-store-app-2.herokuapp.com'> VISIT</a>
+                        <a target='_blank' href='https://react-store-app-2.herokuapp.com' rel="noopener noreferrer"> VISIT</a>
                     </button>
                     <button className='source-btn'>
                         <FontAwesomeIcon icon={['fab', 'github'] }/>
-                        <a target='_blank' href='https://github.com/Gazizaa/Store'> SOURCE</a>
+                        <a target='_blank' href='https://github.com/Gazizaa/Store' rel="noopener noreferrer"> SOURCE</a>
                     </button>
                 </div>
             </div>
@@ -38,11 +38,11 @@ const Projects = () => {
                     <h4>REACT-REACT HOOKS-AXIOS-MOMENT JS</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
-                        <a target='_blank' href='https://gazizaa.github.io/react-weather-app/'> VISIT</a>
+                        <a target='_blank' href='https://gazizaa.github.io/react-weather-app/' rel="noopener noreferrer"> VISIT</a>
                     </button>
                     <button className='source-btn'>
                         <FontAwesomeIcon icon={['fab', 'github'] }/>
-                        <a target='_blank' href='https://github.com/Gazizaa/react-weather-app'> SOURCE</a>
+                        <a target='_blank' href='https://github.com/Gazizaa/react-weather-app' rel="noopener noreferrer"> SOURCE</a>
                     </button>
                 </div>
                 <div className='project-img'>
@@ -59,11 +59,11 @@ const Projects = () => {
                     <h4>REACTJS-SASS</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
-                        <a target='_blank' href='https://gazizaa.github.io/'> VISIT</a>
+                        <a target='_blank' href='https://gazizaa.github.io/' rel="noopener noreferrer"> VISIT</a>
                     </button>
                     <button className='source-btn'>
                         <FontAwesomeIcon icon={['fab', 'github'] }/>
-                        <a target='_blank' href='https://github.com/Gazizaa/gazizaa.github.io'> SOURCE</a>
+                        <a target='_blank' href='https://github.com/Gazizaa/gazizaa.github.io' rel="noopener noreferrer"> SOURCE</a>
                     </button>
                 </div>
             </div>
@@ -74,11 +74,11 @@ const Projects = () => {
                     <h4>REACT-REACT HOOKS-AXIOS-JSON-SERVER</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
-                        <a target='_blank' href='https://react-app-todoo.herokuapp.com'> VISIT</a>
+                        <a target='_blank' href='https://react-app-todoo.herokuapp.com' rel="noopener noreferrer"> VISIT</a>
                     </button>
                     <button className='source-btn'>
                         <FontAwesomeIcon icon={['fab', 'github'] }/>
-                        <a target='_blank' href='https://github.com/Gazizaa/Todo-app'> SOURCE</a>
+                        <a target='_blank' href='https://github.com/Gazizaa/Todo-app' rel="noopener noreferrer"> SOURCE</a>
                     </button>
                 </div>
                 <div className='project-img'>
@@ -95,11 +95,11 @@ const Projects = () => {
                     <h4>BOOTSTRAP</h4>
                     <button>
                         <FontAwesomeIcon icon={['fas', 'link'] } size="xs"/> 
-                        <a target='_blank' href='https://gazizaa.github.io/bootstrap-project/'> VISIT</a>
+                        <a target='_blank' href='https://gazizaa.github.io/bootstrap-project/' rel="noopener noreferrer"> VISIT</a>
                     </button>
                     <button className='source-btn'>
                         <FontAwesomeIcon icon={['fab', 'github'] }/>
-                        <a target='_blank' href='https://github.com/Gazizaa/bootstrap-project'> SOURCE</a>
+                        <a target='_blank' href='https://github.com/Gazizaa/bootstrap-project' rel="noopener noreferrer"> SOURCE</a>
                     </button>
                 </div>
             </div>

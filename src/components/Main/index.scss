@@ -30,14 +30,12 @@
     border-radius: 30px;
     text-transform: uppercase;
     transition: transform 0.5s;
+    color: white;
+    text-decoration: none;
     &:hover {
       background-color: #222222;
       border: 1px solid whitesmoke;
       transform: scale(1.1);
-    }
-    a {
-      color: white;
-      text-decoration: none;
     }
   }
   .github-btn {

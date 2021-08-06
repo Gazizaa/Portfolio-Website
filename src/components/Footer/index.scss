@@ -76,6 +76,24 @@
     }
   }
 }
+.footer-button {
+  button {
+    position: fixed;
+    right: 65px;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    border-radius: 2px;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
 @media (max-width: 1200px) {
   .footer-row {
     flex-wrap: wrap;
@@ -108,9 +126,21 @@
       margin-left: 0px !important;
     }
   }
+  .footer-button {
+    button {
+      right: 30px;
+      font-size: 20px;
+      width: 45px;
+    }
+  }
 }
 @media (max-width: 500px) {
   .footer-input h4 {
     font-size: 35px;
+  }
+  .footer-button {
+    button {
+      right: 10px;
+    }
   }
 }

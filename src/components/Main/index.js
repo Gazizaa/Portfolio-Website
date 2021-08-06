@@ -6,12 +6,16 @@ const Main = () => {
         <div className="main-section">
                 <h1>Hi, I'm Gaziza.</h1>
                 <p>Front-end developer.</p>
-                <button className='github-btn'>
-                    <a href="https://github.com/Gazizaa" target="_blank">Visit Github</a>
-                </button>
-                <button>
-                    <a href="mailto:gazizaagatayeva@gmail.com">Get In touch</a>
-                </button>
+                    <a href="https://github.com/Gazizaa" target="_blank" rel="noopener noreferrer">
+                        <button className='github-btn'>
+                            Visit Github
+                        </button>
+                    </a>
+                    <a href="mailto:gazizaagatayeva@gmail.com">
+                        <button>
+                            Get In touch
+                        </button>
+                    </a>
         </div>
     )
 }
