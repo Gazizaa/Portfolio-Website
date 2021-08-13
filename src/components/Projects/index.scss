@@ -51,10 +51,12 @@
       &:hover {
         transform: scale(1.2);
       }
-      a {
-        text-decoration: none;
-        color: white;
-      }
+    }
+    a {
+      text-decoration: none;
+    }
+    .icon {
+      padding-right: 5px;
     }
     .source-btn {
       background: none;
@@ -73,8 +75,6 @@ h3 {
   letter-spacing: 10px;
   margin: 70px auto;
   padding-bottom: 10px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
   text-decoration: underline;
   text-decoration-color: rgba(15, 15, 15);
 }

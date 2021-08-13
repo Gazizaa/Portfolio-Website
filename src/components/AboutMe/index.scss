@@ -32,15 +32,12 @@
       width: 170px;
       border-radius: 20px;
       border: none;
+      color: white;
+      font-weight: 600;
       transition: transform 0.5s;
       &:hover {
         transform: scale(1.2);
         background-color: #363434;
-      }
-      a {
-        text-decoration: none;
-        color: white;
-        font-weight: 600;
       }
     }
   }

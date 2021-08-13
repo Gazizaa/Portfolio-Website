@@ -9,7 +9,8 @@ const AboutMe = () => {
             <h2>About Me</h2>
             <div className='container-row'>
                 <div className='cv-col'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint asperiores quas laudantium excepturi hic quos consectetur quisquam aut! Ratione temporibus aspernatur vitae fugiat aperiam cum saepe voluptatibus atque facilis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint asperiores quas laudantium excepturi hic quos consectetur quisquam aut! Ratione temporibus aspernatur vitae fugiat aperiam cum saepe voluptatibus atque facilis.</p>
+                    <p>Hello. My name is Gaziza. I'm a Junior Frontend Developer. <br/> This website was created to show my web projects. <br/> Below you can see my projects that represent me the most.</p>
+                    <p>My current stack of languages/technologies is:</p>
                     <p>  
                         <FontAwesomeIcon icon={ ['fab', 'html5']} /> HTML--  
                         <FontAwesomeIcon icon={ ["fab", "css3-alt"]} /> CSS--
@@ -20,7 +21,9 @@ const AboutMe = () => {
                         <FontAwesomeIcon icon={ ["fab", "bootstrap"]} /> BOOTSTRAP--
                         <FontAwesomeIcon icon={ ["fab", "figma"]} /> FIGMA
                     </p>
-                    <button><a href={cv} download target="_blank" rel="noopener noreferrer">Download CV</a></button>
+                    <a href={cv} download target="_blank" rel="noopener noreferrer">
+                        <button>Download CV</button>
+                    </a>
                 </div>
             </div>
         </div>
